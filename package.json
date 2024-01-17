@@ -1,0 +1,18 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "This manages dependencies, metadata, and allows you to specify \"scripts\" to run.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^23.0.1"
+  }
+}
